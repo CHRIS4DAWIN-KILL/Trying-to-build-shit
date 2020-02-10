@@ -1,0 +1,63 @@
+body{
+font-family: Andale Mono, monospace;
+background: linear-gradient(358deg, #deeb10, #1710eb);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 15s ease infinite;
+-moz-animation: AnimationName 15s ease infinite;
+animation: AnimationName 15s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:52% 0%}
+  50%{background-position:49% 75%}
+  100%{background-position:52% 0%}
+}
+p{
+  min-width: 400px;
+  max-width: 60px;
+  margin: 0 auto;
+  border: 2px solid purple;
+  background-color:silver;
+  border-radius: 5px;
+  word-wrap:break-word;
+}
+.width-boundary{
+min-width: 400px;
+max-width: 600px;
+margin: 0 auto;
+}
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+color:yellow;
+}
+center{
+color:yellow;
+font-size:34px;
+font-family: Times New Roman;
+}
+img{
+border-radius: 5px;
+}
+button{
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 15px 25px;
+text-align: center;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+border-radius: 5px;
+border: 5px yellow;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+display:block;
+
+}
+form{
+display: inline-block;
+}

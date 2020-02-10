@@ -1,0 +1,53 @@
+body {
+  background-image: url('img/usnacrest.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+p{
+  min-width: 400px;
+  max-width: 60px;
+  margin: 0 auto;
+  border: 2px solid purple;
+  background-color:silver;
+  border-radius: 5px;
+  word-wrap:break-word;
+  opacity: .95;
+  position: static;
+}
+A{
+  min-width: 400px;
+  max-width: 60px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1;
+}
+.width-boundary{
+min-width: 400px;
+max-width: 600px;
+margin: 0 auto;
+}
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: purple;
+border-radius: 5px;
+color:white;
+opacity: .95;
+min-width: 100px;
+max-width:200px;
+}
+center{
+color:black;
+margin-left:0px;
+font-size:34px;
+font-family: Times New Roman;
+}
+img{
+border-radius: 5px;
+}
+h2{
+  margin: 0 auto;
+}
